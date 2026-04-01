@@ -34,11 +34,11 @@ Dart adalah bahasa pemrograman yang dikembangkan oleh Google pada tahun 2011. Aw
 
 ---
 
-## BAB 2: INSTALASI DAN SETUP
+## BAB 2: INSTALASI, SETUP, DAN CREATE PROJECT DART
 
-### Pengenalan Lingkungan Pengembangan
+### Dev Environment
 
-Sebelum mulai menulis kode, kita perlu menyiapkan lingkungan (environment) agar program Dart bisa dijalankan.
+Sebelum mulai menulis kode, kita perlu menyiapkan Development environment agar program Dart bisa dijalankan. Ibarat kita mau masak, kita perlu menyiapkan dapur dan peralatannya.
 
 Ada dua cara yang bisa digunakan:
 
@@ -50,16 +50,24 @@ Ada dua cara yang bisa digunakan:
 
 ---
 
-### Konsep SDK (Software Development Kit)
+### Dart SDK (Software Development Kit)
 
-Untuk mengembangkan aplikasi menggunakan Dart, kita membutuhkan **Dart SDK**
+Dart SDK adalah kumpulan perangkat lunak, pustaka (libraries), dan compiler wajib dari Google untuk mengembangkan, mengompilasi, dan menjalankan aplikasi berbasis bahasa pemrograman Dart. SDK ini mencakup alat baris perintah (CLI) untuk membangun aplikasi mobile (Flutter), web, server, dan IoT.
 
-Dart SDK berfungsi sebagai alat utama untuk:
+Komponen Utama Dart SDK:
 
-- Mengkompilasi kode Dart
-- Menjalankan program
-- Mengelola package (dependency)
-- Membuat dan mengelola project
+- Dart VM (Virtual Machine): Menjalankan kode Dart saat pengembangan.
+- Compiler (dart2js / dart2native): Mengubah kode Dart menjadi JavaScript (web) atau kode native (mobile/desktop).
+- Pub: Package manager untuk mengelola library dan dependency.
+- Dart Analyzer: Memeriksa error dan peringatan kode secara real-time.
+
+Fungsi Dart SDK:
+
+- Pengembangan aplikasi: Menulis kode Dart dengan fitur autocomplete dan debugging.
+- Kompilasi: Mengubah kode Dart menjadi aplikasi yang siap dirilis (APK/IPA).
+- Eksekusi: Menjalankan kode secara langsung untuk keperluan testing.
+ 
+Dart SDK umumnya dipasang bersamaan dengan Flutter atau diunduh terpisah untuk pengembangan backend/CLI.
 
 ---
 
@@ -130,17 +138,11 @@ Semua kode pertama kali dieksekusi dari fungsi ini
 
 #### Konsep Dasar
 
-Variabel adalah **tempat di memori komputer** yang diberi nama untuk menyimpan data. Bayangkan variabel seperti **kotak dengan label**:
+Variabel adalah nama atau istilah yang digunakan untuk menyimpan data. Dibuat ketika suatu nilai ditetetapkan dan akan merujuk pada nilai tersebut. Komponen variabel terdiri dari:
 
 - **Nama variabel** = label pada kotak
 - **Nilai** = isi di dalam kotak
 - **Tipe data** = jenis barang yang boleh dimasukkan (misalnya hanya angka, atau hanya teks)
-
-#### Mengapa Kita Perlu Variabel?
-
-1. **Menyimpan data** yang akan digunakan kembali
-2. **Memberi makna** pada data (misalnya `umur` lebih jelas daripada `20`)
-3. **Mengubah data** selama program berjalan
 
 #### Cara Deklarasi Variabel di Dart
 
