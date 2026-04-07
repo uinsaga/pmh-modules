@@ -1,4 +1,4 @@
-# 🧪 PRAKTIKUM DART
+# PRAKTIKUM DART
 
 ## Topik: Class, Object, List, dan Map
 
@@ -12,7 +12,7 @@ Mahasiswa mampu:
 
 ---
 
-# 📌 STUDI KASUS
+# STUDI KASUS
 
 Kita akan membuat sistem sederhana:
 👉 **Manajemen Data Mahasiswa**
@@ -35,7 +35,7 @@ setelah itu silakan buka project nya di editor masing-masing dan kerjakan prakti
 
 ---
 
-# 🧱 BAGIAN 1 — CLASS & OBJECT
+# BAGIAN 1 — CLASS & OBJECT
 
 ### Praktek 1: Membuat Class Mahasiswa
 
@@ -81,7 +81,7 @@ void main() {
 
 ---
 
-# 🧱 BAGIAN 2 — LIST (MENYIMPAN BANYAK DATA)
+# BAGIAN 2 — LIST (MENYIMPAN BANYAK DATA)
 
 ### Praktek 3: List Object
 
